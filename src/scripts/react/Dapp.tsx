@@ -3,7 +3,7 @@ import { ethers, BigNumber } from 'ethers'
 import { ExternalProvider, Web3Provider } from '@ethersproject/providers';
 import detectEthereumProvider from '@metamask/detect-provider';
 import NftContractType from '../lib/NftContractType';
-import CollectionConfig from '../../../../smart-contract/config/CollectionConfig';
+import CollectionConfig from 'smart-contract/config/CollectionConfig';
 import NetworkConfigInterface from '../../../../smart-contract/lib/NetworkConfigInterface';
 import CollectionStatus from './CollectionStatus';
 import MintWidget from './MintWidget';
